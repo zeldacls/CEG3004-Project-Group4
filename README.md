@@ -30,7 +30,7 @@ To design a **robust audio classification pipeline** that performs well under bo
 
 ## Project Structure
 ```
-├── ZeldaSyaakir_ceg3004_project_colab.ipynb   # Main Colab notebook
+├── ZeldaSyaakir_CEG3004_project_colab.ipynb   # Main Colab notebook
 ├── Pr_4_model.joblib                   # Trained model (auto-generated)
 ├── Pr_4_predictions.csv                # Submission predictions (auto-generated)
 └── README.md                           # This file

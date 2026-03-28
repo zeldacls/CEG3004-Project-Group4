@@ -28,7 +28,7 @@ To design a **robust audio classification pipeline** that performs well under bo
 
 ---
 
-## 📂 Dataset
+## Dataset
 - Based on the **ESC-50 dataset**
 - 2,000 audio clips (5 seconds each, mono)
 - 50 sound classes (40 clips per class)

@@ -28,6 +28,15 @@ To design a **robust audio classification pipeline** that performs well under bo
 
 ---
 
+## Project Structure
+```
+├── ZeldaSyaakir_ceg3004_project_colab.ipynb   # Main Colab notebook
+├── Pr_4_model.joblib                   # Trained model (auto-generated)
+├── Pr_4_predictions.csv                # Submission predictions (auto-generated)
+└── README.md                           # This file
+```
+---
+
 ## Dataset
 - Based on the **ESC-50 dataset**
 - 2,000 audio clips (5 seconds each, mono)

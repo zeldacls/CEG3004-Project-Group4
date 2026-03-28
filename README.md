@@ -3,22 +3,56 @@
 
 ---
 
-## What This Project Does
+## Project Overview
 
-This project builds an audio classifier that can identify 50 different environmental sounds (like dog barks, rain, sirens, etc.) from short audio clips. The classifier is also designed to handle noisy and low-quality audio — not just clean recordings.
+This project focuses on building a **robust Environmental Sound Classification (ESC) system** using **Digital Signal Processing (DSP)** and **Machine Learning** techniques.
 
-The dataset used is based on [ESC-50](https://github.com/karolpiczak/ESC-50), which contains 2,000 audio clips across 50 sound classes.
+The goal is to accurately classify environmental sounds into **50 classes**, while maintaining strong performance under:
+- Clean audio
+- Noisy audio
+- Band-limited audio
 
 ---
 
-## Project Structure
+## Project Aim
 
-```
-├── zelda_ceg3004_project_colab.ipynb   # Main Colab notebook
-├── Pr_4_model.joblib                   # Trained model (auto-generated)
-├── Pr_4_predictions.csv                # Submission predictions (auto-generated)
-└── README.md                           # This file
-```
+To design a **robust audio classification pipeline** that performs well under both clean and distorted conditions.
+
+---
+
+## Objectives
+- Train on labeled environmental sound data
+- Extract meaningful DSP features
+- Build a machine learning classifier
+- Ensure robustness to noise and distortions
+
+---
+
+## 📂 Dataset
+- Based on the **ESC-50 dataset**
+- 2,000 audio clips (5 seconds each, mono)
+- 50 sound classes (40 clips per class)
+
+### Dataset Structure
+
+data/
+│── train/
+│ ├── audio/
+│ ├── labels.csv
+│
+│── submission/
+│ ├── audio/
+│ ├── metadata.csv
+
+---
+
+### Submission Set Variants
+Each audio clip has:
+- Clean version
+- Noisy version
+- Band-limited version
+
+This tests robustness of the model.
 
 ---
 

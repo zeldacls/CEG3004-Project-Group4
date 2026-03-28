@@ -33,17 +33,12 @@ To design a **robust audio classification pipeline** that performs well under bo
 - 2,000 audio clips (5 seconds each, mono)
 - 50 sound classes (40 clips per class)
 
-### Dataset Structure
+### Project Structure
 
-data/
-│── train/
-│ ├── audio/
-│ ├── labels.csv
-│
-│── submission/
-│ ├── audio/
-│ ├── metadata.csv
-
+├── ZeldaSyaakir_ceg3004_project_colab.ipynb   # Main Colab notebook
+├── Pr_4_model.joblib                   # Trained model (auto-generated)
+├── Pr_4_predictions.csv                # Submission predictions (auto-generated)
+└── README.md                           # This file
 ---
 
 ### Submission Set Variants
